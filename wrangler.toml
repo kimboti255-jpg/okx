@@ -1,0 +1,9 @@
+name = "okx"
+main = "okx.js" # Hakikisha hapa inaendana na jina la faili lako la JavaScript (mfano: index.js au src/index.js)
+compatibility_date = "2026-10-14"
+
+# Sehemu hii inaunganisha msimbo wako na Database ya D1
+[[d1_databases]]
+binding = "DB" # Hili lisibadilike, ndilo linalotumika kwenye env.DB
+database_name = "odakubwa" # Jina la database yako mpya
+database_id = "4a7c7004-ba67-4b6e-a25b-a08382fa0c3f" # Paste ile ID uliyocopia kule Cloudflare
